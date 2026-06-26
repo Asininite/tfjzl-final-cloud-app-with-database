@@ -102,7 +102,6 @@ def enroll(request, course_id):
 
     return HttpResponseRedirect(reverse(viewname='onlinecourse:course_details', args=(course.id,)))
 
-
 # An example method to collect the selected choices from the exam form from the request object
 def extract_answers(request):
    submitted_anwsers = []
